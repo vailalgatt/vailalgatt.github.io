@@ -1,0 +1,18 @@
+$red: #ff3333
+$green: #009900
+
+.light
+    height: 75px
+    width: 75px
+    border-radius: 50%
+
+    &:hover
+        box-shadow: 1px 1px 10px 8px
+
+
+        &.green
+            box-shadow: $red
+            background: lighten($green, 50%)
+
+        .red
+            background: $red

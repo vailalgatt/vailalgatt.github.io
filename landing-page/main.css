@@ -1,0 +1,70 @@
+body {
+  background: url(bg-img.jpg);
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar, .navbar-header {
+  background-color: transparent;
+  border: 0px;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.navbar-nav a {
+  color: white;
+}
+
+.container-header {
+  text-align: center;
+  color: white;
+  font-family: 'Indie Flower', cursive;
+}
+
+h1 {
+  font-size: 60px;
+  margin-bottom: 50px;
+}
+
+.container-about {
+  background-color: rgba(172, 207, 221, 0.7);
+  font-family: 'Open Sans', sans-serif;
+}
+
+div.nothing {
+  width: 100px;
+  padding: 150px;
+}
+
+.container-projects {
+  padding-top: 25px;
+  background-color: rgba(172, 207, 221, 0.7);
+}
+
+.container-footer {
+  padding-top: 25px;
+  background-color: rgba(172, 207, 221, 0.7);
+  text-align: center;
+  color: white;
+}
+
+p {
+  text-align: center;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+}
+
+.container-progress {
+  background-color: rgba(172, 207, 221, 0.7);
+}
