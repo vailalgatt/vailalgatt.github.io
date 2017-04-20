@@ -1,106 +1,22 @@
-body {
-  background: #dbe6cb;
+.navbar, .navbar-header {
+  background-color: transparent;
+  border: 0px;
 }
 
-
-
-.card-white {
-  background: white;
-  padding: 30px;
-  box-shadow: 1px 1px 2px #e7e7e7;
-  border-radius: 4px;
-  margin: 20px 50px;
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
 }
 
-.white {
-    background: #dbe6cb;
+.navbar .navbar-collapse {
+  text-align: left;
 }
 
-.white-bg {
-  background-color:white;
-}
-
-.jumbotron {
-    background-color: #dbe6cb;
-}
-
-.img {
-    display: block;
-}
-
-.img-logo {
-  float: left;
-  height: 65px;
-  width: 100px;
-}
-
-.carousel-slide {
-  float: left;
-}
-
-.jumbotron {
-        background-image:url(assets/styles.css/logo.jpg);
-        margin-top:-20px
-    }
-
-.nav {
-    background-color: white;
-    padding-left: 0;
-    margin-bottom: 0;
-    list-style: none;
-}
-
-.navbar-fixed-bottom, .navbar-fixed-top {
-    position: fixed;
-    right: 0;
-    left: 0;
-    z-index: 1030;
-}
-
-.navbar-brand {
-  float: right;
-  padding-bottom: .25rem;
-}
-
-footer {
-  background-color: white;
-}
-
-.fa {
-  float: left;
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-}
-
-.fa:hover {
-    opacity: 0.7;
-}
-
-.fa-facebook {
-  background: #3B5998;
-  color: white;
-}
-
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
-}
-
-.fa-youtube {
-  background: #bb0000;
-  color: white;
-}
-
-.fa-instagram {
-  background: #125688;
-  color: white;
-}
-
-.fa-pinterest {
-  background: #cb2027;
-  color: white;
+header {
+  background: url(netflix-background.jpg);
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
