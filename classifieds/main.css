@@ -1,0 +1,22 @@
+body {
+  background-color: #efefef;
+}
+
+h1 {
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+button {
+  padding: 8px;
+  margin: 10px;
+}
+
+footer {
+  text-align: center;
+}
+
+form {
+  margin: 30px;
+  width: 80%;
+}
